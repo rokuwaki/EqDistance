@@ -8,7 +8,7 @@ The codes generate *nearest-neighbor distance* between earthquakes on given cata
 ## Usage
 
 ```bash
-$ bash RunEqDistance.sh
+$ bash bin/RunEqDistance.sh
 ```
 
 - You can modify magnitude threshold (`$MinMag`) in `RunEqDistance.sh`.  
