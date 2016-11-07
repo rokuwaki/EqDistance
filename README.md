@@ -11,7 +11,7 @@ $ bash RunEqDistance.sh
 
 - You can modify magnitude threshold (`$MinMag`) in `RunEqDistance.sh`.  
 - Output values are in Log10.
-- *ad hok* correction is needed for L48066 of "hs_1981_2011_06_comb_K2_A.cat_so_SCSN_v01"   
+- *ad hok* correction is needed for L480661 of "hs_1981_2011_06_comb_K2_A.cat_so_SCSN_v01"   
   (2010 06 17 14 22 60.000 --> 2010 06 17 14 23 00.000)
 
 ## Dependencies
