@@ -2,7 +2,7 @@
 
 - Fortran implementation for the method of [Zaliapin and Ben-Zion (2013, JGR)](http://doi.org/10.1002/jgrb.50179).
 - The codes generate *nearest-neighbor distance* between earthquakes on given catalog.
-- Another faster (O(N√N)) C++ implementation has been developed by [kshramt](https://github.com/kshramt) and available at [kshramt/trial_kshramt/ZaliapinBen-Zion2013/](https://github.com/kshramt/trial_kshramt/tree/master/ZaliapinBen-Zion2013)
+- Another faster (O(N√N)) C++ implementation has been developed by [kshramt](https://github.com/kshramt) and available at [kshramt/trial_kshramt/ZaliapinBen-Zion2013](https://github.com/kshramt/trial_kshramt/tree/master/ZaliapinBen-Zion2013)
 
 ## Usage
 
