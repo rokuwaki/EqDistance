@@ -10,6 +10,8 @@ bash bin/CalSecUNIXTime.sh data/$Catalog $MinMag > data/$Catalog"_M"$MinMag"_sec
 
 echo "Calculating nearest-neighbor distance in Log10"
 gfortran -fopenmp -Wall src/geodesic.f90 src/EqDistance.f90 -o bin/EqDistance
-bin/EqDistance < data/$Catalog"_M"$MinMag"_sec".txt > data/$Catalog"_M"$MinMag"_log10eta".txt
+bin/EqDistance < data/$Catalog"_M"$MinMag"_sec".txt > tmp
+cp tmp data/$Catalog"_M"$MinMag"_log10eta".txt
+cp tmp2 data/$Catalog"_M"$MinMag"_T_R".txt
 
-rm *.mod
+rm *.mod tmp*
