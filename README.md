@@ -26,6 +26,3 @@ $ bash bin/RunEqDistance.sh
 - jupyter-notebook 4.2.3
 - Python 3.5.2
 - numpy 1.11.2
-
-## License
-GNU General Public License v3.0
